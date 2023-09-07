@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 8,
+    "passes": 2,
+    "pending": 0,
+    "failures": 6,
+    "start": "2023-09-07T20:22:13.126Z",
+    "end": "2023-09-07T20:22:13.270Z",
+    "duration": 144
+  },
+  "tests": [
+    {
+      "title": "contains a <body> tag",
+      "fullTitle": "within index.html contains a <body> tag",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a </body> tag",
+      "fullTitle": "within index.html contains a </body> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains an <h1> tag",
+      "fullTitle": "within index.html contains an <h1> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include '<h1>'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include '<h1>'\n    at Context.<anonymous> (test/indexTest.js:11:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "contains a <p> tag",
+      "fullTitle": "within index.html contains a <p> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include '<p>'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include '<p>'\n    at Context.<anonymous> (test/indexTest.js:14:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "within the <p>, it contains a <strong> tag",
+      "fullTitle": "within index.html within the <p>, it contains a <strong> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:17:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <em> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <em> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:20:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <a> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <a> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:23:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <body>, it contains a <table> tag",
+      "fullTitle": "within index.html within the <body>, it contains a <table> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'table'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'table'\n    at Context.<anonymous> (test/indexTest.js:28:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "contains an <h1> tag",
+      "fullTitle": "within index.html contains an <h1> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include '<h1>'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include '<h1>'\n    at Context.<anonymous> (test/indexTest.js:11:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "contains a <p> tag",
+      "fullTitle": "within index.html contains a <p> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include '<p>'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include '<p>'\n    at Context.<anonymous> (test/indexTest.js:14:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "within the <p>, it contains a <strong> tag",
+      "fullTitle": "within index.html within the <p>, it contains a <strong> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:17:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <em> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <em> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:20:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <a> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <a> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:23:39)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <body>, it contains a <table> tag",
+      "fullTitle": "within index.html within the <body>, it contains a <table> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'table'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'table'\n    at Context.<anonymous> (test/indexTest.js:28:57)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "contains a <body> tag",
+      "fullTitle": "within index.html contains a <body> tag",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a </body> tag",
+      "fullTitle": "within index.html contains a </body> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
